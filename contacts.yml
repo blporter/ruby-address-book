@@ -1,0 +1,33 @@
+---
+- !ruby/object:Contact
+  first_name: John
+  middle_name: 
+  last_name: Doe
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: cell
+    number: 123-456-7890
+  addresses:
+  - !ruby/object:Address
+    kind: home
+    street_1: 123 Main street
+    street_2: "#2"
+    city: San Francisco
+    state: CA
+    postal_code: '12345'
+- !ruby/object:Contact
+  first_name: Jane
+  middle_name: Lin
+  last_name: Doe
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: home
+    number: '098-765-4321'
+  addresses:
+  - !ruby/object:Address
+    kind: home
+    street_1: 123 Main street
+    street_2: "#2"
+    city: San Francisco
+    state: CA
+    postal_code: '12345'
